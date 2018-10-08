@@ -41,9 +41,9 @@ class _HomeState extends State<Home> with TickerProviderStateMixin{
       // initializing the controller object : the Animation controller takes in 
       // the duration and the vsync in order control the animation
       controller = AnimationController(
-        // duration of animation set to 1 second.
+        // duration of animation set to 2 seconds.
         duration: Duration(
-          seconds: 1,
+          seconds: 2,
         ),
         // passing 'this' to vsync because _Homestate class uses TikerProviderStateMixin
         vsync: this
